@@ -24,7 +24,6 @@
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-  color: black;
 }
 
 button {
@@ -64,6 +63,10 @@ button:focus-visible {
   display: grid;
   grid-template-columns: 3fr 1fr;
   gap: 2rem;
+}
+
+.modal-content h2 {
+  color: black;
 }
 
 /*update modal styles below*/
